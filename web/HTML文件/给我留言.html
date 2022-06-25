@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>提问留言</title>
+    <link rel="stylesheet" href="../CSS文件/all.css">
+    <link rel="stylesheet" href="../CSS文件/给我留言.css">
+</head>
+<body>
+    <header>
+        <div id="header_1">
+            <p>欢迎来到HXQ的个人主页</p>
+        </div>
+        <div id="header_2">
+            <p>---WELCOME TO HXQ'S PERSONAL HOMEPAGE</p>
+        </header>
+    </div>
+    <nav>
+        <ul>
+            <a href="./index.html" title="首页"><span>首页</span></a>
+            <span class="nav_1">|</span>
+            <a href="./个人介绍.html" title="个人介绍"><span>个人介绍</span></a>
+            <span class="nav_1">|</span>
+            <a href="./家乡风情.html" title="家乡风情"><span>家乡风情</span></a>
+            <span class="nav_1">|</span>
+            <a href="./兴趣爱好.html" title="兴趣爱好"><span>兴趣爱好</span></a>
+            <span class="nav_1">|</span>
+            <a href="./给我留言.html" title="提问留言"><span class="span_1">提问留言</span></a>
+        </ul>
+    </nav>
+    <div id="depart">
+    </div>
+    <div id="tableContainer">
+        <div id="tableRow">
+            <div id="ask">
+                <div id="title">
+                    <h5>向我提问</h5>
+                </div>
+              <form action="" name="ask">
+                <table>
+                    <tr>
+                        <th class="text"><label for="name1">你的名字:</label></th>
+                        <th><input type="text" id="name1"></th>
+                    </tr>
+                    <tr>
+                        <th class="text">  
+                            <label>你想就那几个方面对我提问：</label>
+                        </th>
+                        <th>
+                        <input type="checkbox" id="aspect_1" name="aspect" value="性格"> 
+                      <label for="aspect_1">性格</label>
+                     <input type="checkbox" id="aspect_2" name="aspect" value="星座">
+                      <label for="aspect_2">星座</label>
+                      <input type="checkbox" id="aspect_3" name="aspect" value="爱好">
+                      <label for="aspect_3">爱好</label>
+                      <input type="checkbox" id="aspect_4" name="aspect" value="其他">
+                      <label for="aspect_3">其他</label>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th class="text"><label for="why">向我提问的原因:</label></th>
+                        <th><input type="text" id="why" name="why"></th>
+                    </tr>
+                    <tr>
+                        <th class="text"><label for="asks">你的具体问题:</label></th>
+                        <th><textarea id="asks" name="asks"></textarea></th>
+                    </tr>
+                    <tr>
+                        <th> <label></label></th>
+                        <th> <input type="submit" value="提交"></th>
+                    </tr>
+                </table>
+                </form>
+            </div>
+
+            <div id="message">
+
+                <div id="title">
+                    <h5>给我留言</h5>
+                </div>
+
+               <form action="" name="message">
+                    <table>
+                        <tr>
+                            <th class="text"><label for="name1">你的名字:</label></th>
+                            <th><input type="text" id="name1"></th>
+                        </tr>
+                        <tr>
+                            <th class="text"><label>性别：</label></th>
+                            <th>
+                                <input type="radio" id="sex_1" name="sex"> 
+                                <label for="sex_1">男</label>
+                               <input type="radio" id="sex_2" name="sex"> 
+                                <label for="sex_2">女</label>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th class="text" ><label for="ages">你的年龄:</label></th>
+                            <th> <input type="number" id="ages" name="ages" min="0" max="100"></th>
+                        </tr>
+                        <tr>
+                            <th class="text">   <label for="relative">你和我的关系：</label></th>
+                            <th>
+                                <select id="relative">
+                                    <option value="同学">同学</option>
+                                    <option value="朋友">朋友</option>
+                                    <option value="家人">家人</option>
+                                    <option value="认识的人">认识的人</option>
+                                    <option value="陌生人">陌生人</option>
+                                  </select>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th class="text" > <label for="messages">给我的留言:</label></th>
+                            <th> <textarea id="messages" name="messages"></textarea></th>
+                        </tr>
+                        <tr>
+                            <th class="text"><label></label></th>
+                            <th><input type="submit" value="提交"></th>
+                        </tr>
+                    </table>
+                    </div> 
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div id="depart1">
+        </div>
+        <p>感谢观看HXQ的个人主页</p>
+    </footer>
+</body>
+</html>
